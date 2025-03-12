@@ -8,8 +8,8 @@ let a =45;
 let b = 15
 console.log("Add : " + (a+b));
 console.log("Sub : " + (a-b));
-console.log("Sub : " + (a*b));
-console.log("Sub : " + (a/b));
+console.log("mul : " + (a*b));
+console.log("div : " + (a/b));
 
 //for Loop:
 // print 1-10 
