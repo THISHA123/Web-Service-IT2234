@@ -10,7 +10,7 @@ app.get('/stu', (req, res) => {
     res.send(students);
 });
 
-// Get student by regno (fixing id issue)
+// Get student by regno 
 app.get('/stu/:regno', (req, res) => {
     const regno = req.params.regno;
     const result = students.find(student => student.regno === regno);
