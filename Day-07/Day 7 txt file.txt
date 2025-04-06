@@ -1,0 +1,30 @@
+Synchronous vs Asynchronous Programming in Node.js
+ Synchronous (Syn)
+Executes line by line, in order.
+
+Each operation waits for the previous one to finish before executing.
+
+Blocking in nature — slow operations like file access or API calls will block further execution.
+
+-> Asynchronous Programming
+Node.js is event-driven and non-blocking.
+
+It allows the program to continue executing while waiting for tasks like file reading or API responses.
+
+Used to improve performance, especially for I/O-heavy tasks.
+
+Examples of async tasks:
+*Reading a file
+
+*Requesting data from an API
+
+*Printing a message
+
+ Note: These do not execute in order, so output might appear different than the code sequence.
+ 
+ Promise States:
+1.Pending – operation in progress
+
+2.Fulfilled – operation completed successfully
+
+3.Rejected – operation failed (e.g., file not found)
