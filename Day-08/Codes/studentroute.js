@@ -1,19 +1,8 @@
 const express = require('express')
 const router = express.Router()
 const studentService=require('./studentservice')
-/*
-router.get('/',(req,res)=>{
-    const results = studentService.getstudents()
-    if(results){
-        res.status(200).json(results)
-    }
-    else
-    {
-        res.status(404).send("sorry, No Data Found !")
-    }
-    
-})
-*/
+
+
 router.get('/', (req, res) => {
     const results = studentService.getStudent(); // ← fixed here
     if (results && results.length > 0) {
