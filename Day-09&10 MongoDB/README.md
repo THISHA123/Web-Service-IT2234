@@ -34,6 +34,31 @@ MongoDB shell queries
 |Finding IT Students and Sorting by GPA in Ascending Order|![Finding IT Students and Sorting by GPA in Ascending Order](https://github.com/user-attachments/assets/7257f7e6-4268-49ff-9e9c-5d0bb165fcbb)|
 |Finding Male IT Students and Sorting by Age in Ascending Order|![Finding Male IT Students and Sorting by Age in Ascending Order](https://github.com/user-attachments/assets/33cf947c-e1aa-4706-9825-ce4ed58b895b)|
 
+Options
+|Queries|Output|
+|-----------------|---------------------|
+|Displaying Specific Fields|![Displaying Specific Fields](https://github.com/user-attachments/assets/88376647-d30e-4b4e-8714-6fa4e05c101a)|
+|Displaying Name and Age with Exclusion of _id|![Displaying Name and Age with Exclusion of _id](https://github.com/user-attachments/assets/24510157-f1c3-4c7e-9a97-a128b118cfa2)|
+|Finding Student by Gender|![Finding Student by Gender](https://github.com/user-attachments/assets/5fb88f81-d689-4096-b425-a3e4604d2551)|
+|Finding Student by Registration Number|![Finding Student by Registration Number](https://github.com/user-attachments/assets/d7d7c493-0ff3-4f9d-b993-a1b1c047224d)|
+|Finding Students Aged 24 or Younger|
+![Finding Students Aged 24 or Younger](https://github.com/user-attachments/assets/00c0ba02-b1d3-49f6-9dce-8f5ff99022f9)|
+|Finding Students Exactly Aged 25|![Finding Students Exactly Aged 25](https://github.com/user-attachments/assets/aea6060e-3c84-40f9-b1ed-4b1af7195717)|
+|Finding Students with MatLab Skill|![Finding Students with MatLab Skill](https://github.com/user-attachments/assets/63671781-e1fb-4cb6-867f-757d2748322e)|
+|Finding Students with Either MatLab or JS Skill|![Finding Students with Either MatLab or JS Skill](https://github.com/user-attachments/assets/abcca131-c78c-4678-87fb-d4550d4a9d88)|
+|Finding Students Without MatLab Skill|![Finding Students Without MatLab Skill](https://github.com/user-attachments/assets/e3e7addf-482a-4121-84a7-685600f44ae3)|
+|Sorting Students by GPA in Descending Order|![Sorting Students by GPA in Descending Order](https://github.com/user-attachments/assets/e948b735-11c6-43e1-8355-77b8483f220d)|
+|Sorting Students by GPA (Descending) and Name|![Sorting Students by GPA (Descending) and Name](https://github.com/user-attachments/assets/947a8085-8c9e-43cd-80b7-ed5d7fa842b8)|
+
+
+
+
+
+
+
+
+
+
 
 
 
