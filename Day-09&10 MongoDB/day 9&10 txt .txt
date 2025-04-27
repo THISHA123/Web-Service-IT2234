@@ -1,0 +1,184 @@
+Step 1: Start MongoDB Compass
+
+•	Open MongoDB Compass.
+
+•	Connect using the following:
+
+localhost:27017
+
+•	Click "Connect".
+•	You will see default databases: admin, config, local.
+
+Step 2: Create a New Database
+•	Click on "Create Database".
+•	Database name: mydb
+•	Collection name: students
+•	Click Create Database.
+
+
+
+Insert Document
+  ,
+  "regno": "2021IT001",
+  "name": "Kolins",
+  "unidb": "students",
+  "age": 25,
+  "gender": "male",
+  "degree": "IT",
+  "gpa": 3.2,
+  "skills": [
+    "JS",
+    "MatLab",
+    "C++",
+    "Node"
+  ]
+
+
+
+
+InsertOne
+db.students.insertOne({
+  "regno": "2021IT002",
+  "name": "keni",
+  "age": 23,
+  "gender": "Female",
+  "degree": "IT",
+  "gpa": 3.4,
+  "skills": [
+    "JS",
+    "MongoDb",
+    "Node"
+  ]
+})
+insertMany()
+db.students.insertMany([
+  {
+    "regno": "2021IT003",
+    "name": "Imsla",
+    "age": 24,
+    "gender": "Female",
+    "degree": "Computer Science",
+    "gpa": 3.7,
+    "skills": [
+      "JS",
+      "C++",
+      "Node"
+    ]
+  },
+  {
+    "regno": "2021IT004",
+    "name": "Thisha",
+    "age": 23,
+    "gender": "Female",
+    "degree": "Software Engineering",
+    "gpa": 3.2,
+    "skills": [
+      "MongoDb",
+      "Java"
+    ]
+  },
+  {
+    "regno": "2021IT005",
+    "name": "Samra",
+    "age": 22,
+    "gender": "Female",
+    "degree": "Information Systems",
+    "gpa": 3.6,
+    "skills": [
+      "JS",
+      "MongoDb",
+      "C#"
+    ]
+  },
+  {
+    "regno": "2021IT006",
+    "name": "Shahla",
+    "age": 25,
+    "gender": "Female",
+    "degree": "Data Science",
+    "gpa": 3.4,
+    "skills": [
+      "C",
+      "MongoDb",
+      "Node"
+    ]
+  },
+  {
+    "regno": "2021IT007",
+    "name": "Nisa",
+    "age": 21,
+    "gender": "Female",
+    "degree": "Cyber Security",
+    "gpa": 3.8,
+    "skills": [
+      "C++",
+      "Java",
+      "MongoDb"
+    ]
+  },
+  {
+    "regno": "2021IT008",
+    "name": "Ameera",
+    "age": 26,
+    "gender": "Female",
+    "degree": "Artificial Intelligence",
+    "gpa": 3.5,
+    "skills": [
+      "C#",
+      "Node",
+      "JS"
+    ]
+  },
+  {
+    "regno": "2021IT009",
+    "name": "Rayen",
+    "age": 24,
+    "gender": "Male",
+    "degree": "Information Technology",
+    "gpa": 3.1,
+    "skills": [
+      "C",
+      "C++",
+      "MongoDb"
+    ]
+  },
+  {
+    "regno": "2021IT010",
+    "name": "Hana",
+    "age": 22,
+    "gender": "Female",
+    "degree": "Software Engineering",
+    "gpa": 3.9,
+    "skills": [
+      "Java",
+      "JS",
+      "Node"
+    ]
+  },
+  {
+    "regno": "2021IT011",
+    "name": "Kevin",
+    "age": 25,
+    "gender": "Male",
+    "degree": "Software Engineering",
+    "gpa": 3.3,
+    "skills": [
+      "C++",
+      "Java",
+      "MongoDb"
+    ]
+  },
+  {
+    "regno": "2021IT012",
+    "name": "Ayaan",
+    "age": 23,
+    "gender": "Male",
+    "degree": "Computer Science",
+    "gpa": 3.5,
+    "skills": [
+      "C#",
+      "JS",
+      "Node"
+    ]
+  }
+])
