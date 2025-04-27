@@ -41,8 +41,7 @@ Options
 |Displaying Name and Age with Exclusion of _id|![Displaying Name and Age with Exclusion of _id](https://github.com/user-attachments/assets/24510157-f1c3-4c7e-9a97-a128b118cfa2)|
 |Finding Student by Gender|![Finding Student by Gender](https://github.com/user-attachments/assets/5fb88f81-d689-4096-b425-a3e4604d2551)|
 |Finding Student by Registration Number|![Finding Student by Registration Number](https://github.com/user-attachments/assets/d7d7c493-0ff3-4f9d-b993-a1b1c047224d)|
-|Finding Students Aged 24 or Younger|
-![Finding Students Aged 24 or Younger](https://github.com/user-attachments/assets/00c0ba02-b1d3-49f6-9dce-8f5ff99022f9)|
+|Finding Students Aged 24 or Younger|![Finding Students Aged 24 or Younger](https://github.com/user-attachments/assets/00c0ba02-b1d3-49f6-9dce-8f5ff99022f9)|
 |Finding Students Exactly Aged 25|![Finding Students Exactly Aged 25](https://github.com/user-attachments/assets/aea6060e-3c84-40f9-b1ed-4b1af7195717)|
 |Finding Students with MatLab Skill|![Finding Students with MatLab Skill](https://github.com/user-attachments/assets/63671781-e1fb-4cb6-867f-757d2748322e)|
 |Finding Students with Either MatLab or JS Skill|![Finding Students with Either MatLab or JS Skill](https://github.com/user-attachments/assets/abcca131-c78c-4678-87fb-d4550d4a9d88)|
