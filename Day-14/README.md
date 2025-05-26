@@ -7,5 +7,4 @@
 |put|![put](https://github.com/user-attachments/assets/b833f4a8-325a-4eef-9a92-fca7c193e608)|
 |Delete|![delete](https://github.com/user-attachments/assets/59e257a2-ea47-49c2-a195-858986dfb86f)|
 |get all course|![get all courses](https://github.com/user-attachments/assets/c5c1f2a5-a67d-4c74-ad78-c3871ca3e1ba)|
-|Get all students with populated degrees|![GET all students with populated degrees](https://github.com/user-attachments/assets/f500a2d1-d130-42f3-801b-0c3df53dc56d)|
 
