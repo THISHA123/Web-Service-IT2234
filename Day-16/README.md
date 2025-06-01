@@ -56,7 +56,7 @@ Notes:
 
 |Dis|Output|
 |----------|-----------|
-|Get all distinct positions|![Uploading Get all distinct positions.png…]()|
-|Get employee count per position|![Uploading Get employee count per position.png…]()|
-|Get employee with project names|![Uploading Get employee with project names.png…]()|
-|Get full department, ETF, employee, and project details|![Uploading Get full department, ETF, employee, and project details.png…]()|
+|Get all distinct positions|![Get all distinct positions](https://github.com/user-attachments/assets/e6c85bfc-dac4-4499-b33b-9ae4df0908d7)|
+|Get employee count per position|![Get employee count per position](https://github.com/user-attachments/assets/7f22b5c6-cfd6-44c5-84c9-34acd95b0a4a)|
+|Get employee with project names|![Get employee with project names](https://github.com/user-attachments/assets/3254fa99-8cc1-482f-94dd-41952ae1ec36)|
+|Get full department, ETF, employee, and project details|![Get full department, ETF, employee, and project details](https://github.com/user-attachments/assets/40c7896a-8892-43d2-b700-f1d94478a22c)|
