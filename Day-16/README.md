@@ -16,5 +16,47 @@
 ||![13 - 3](https://github.com/user-attachments/assets/5b45c2e3-43df-439a-884d-b0ed336d45f7)|
 |display only employee id , name, department name|![14- display only employee id , name, department name](https://github.com/user-attachments/assets/0161fe65-2219-4ef0-a6c6-8853e52b4e50)|
 
+Date: 30-05-2025             Day: 17
 
+Task: Department, ETF, Employee, and Project API Endpoints
+1. Get Full Department, ETF, Employee, and Project Details
+🔹 Method: GET
 
+🔹 URL: /departments/details
+
+🔹 Description:
+Retrieves all departments with their linked employees, ETFs, and projects using MongoDB aggregation and lookup.
+
+2. Get Department by ID (Basic Info)
+🔸 Method: GET
+
+🔸 URL: /departments/:id/basic
+
+🔸 Example: /departments/D101/basic
+
+🔸 Description:
+Fetches only the department's ID and name for the given department ID.
+
+3. Get Departments with Employee Count
+🔹 Method: GET
+
+🔹 URL: /departments/with-employee-count
+
+🔹 Description:
+Lists all departments along with the number of employees working in each department.
+
+Notes:
+✅ MongoDB $lookup is used to join collections.
+
+✅ Aggregation stages include $addFields and $project for data shaping.
+
+✅ The API server runs at http://localhost:3010.
+
+✅ Proper error responses for missing data and server errors are implemented
+
+|Dis|Output|
+|----------|-----------|
+|Get all distinct positions|![Uploading Get all distinct positions.png…]()|
+|Get employee count per position|![Uploading Get employee count per position.png…]()|
+|Get employee with project names|![Uploading Get employee with project names.png…]()|
+|Get full department, ETF, employee, and project details|![Uploading Get full department, ETF, employee, and project details.png…]()|
